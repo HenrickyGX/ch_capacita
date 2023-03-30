@@ -35,7 +35,7 @@
             $action = $_GET['action'];
             if ($action == 'edit') {
                 // redireciona o usuário para a página de edição do registro
-                header('Location: edit.php?id=1' . $id);
+                header('Location: edit.php?id=' . $id);
                 exit;
             } elseif ($action == 'delete') {
                 try {
