@@ -67,8 +67,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <label for="nome">Nome completo:</label>
             <input type="text" id="nome" name="nome" required>
 
-			<label for="local">Local:</label>
-			<input type="text" id="local" name="local" required>
 
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
@@ -76,12 +74,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone" required>
 
-            <label for="curso">Curso:</label>
-            <select id="curso" name="curso" required>
-                <option value="">Selecione um curso</option>
-                <option value="grupo1">Grupo 1</option>
-                <option value="grupo2">Grupo 2</option>
-                <option value="grupo3">Grupo 3</option>
+            <label for="local">Local:</label>
+            <select id="local" name="local" required>
+                <option value="">Selecione uma unidade</option>
+               
             </select>
 
             <label for="data">Data:</label>
