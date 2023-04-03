@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav>
+    <a href="index.php">Voltar para página de solicitações</a>
+</nav>
+
     <div class="container">
+
         <h1>Agenda de Capacitações</h1>
         <?php
             // estabelece conexão com o banco de dados
@@ -71,4 +76,4 @@
 
             } else {
                 echo 'Nenhum registro encontrado.';
-            }
+            } 
